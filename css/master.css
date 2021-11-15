@@ -3,6 +3,7 @@
   --Main-Color: #2196f3;
   --Alt-Color: #1787e0;
   --Main-Trans: 0.5s;
+  --Section-BG: #ececec;
 }
 /* End Variables */
 /* Start Global Rules */
@@ -247,7 +248,7 @@ ul {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #ececec;
+  background-color: var(--Section-BG);
   z-index: -1;
   transform: skewY(-6deg);
   transform-origin: top left;
@@ -374,6 +375,51 @@ ul {
   animation-direction: alternate;
 }
 /* End Articles */
+/* Start Gallery */
+.gallery {
+  position: relative;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-color: var(--Section-BG);
+}
+.gallery .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+}
+.gallery .box {
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%),
+    0px 2px 4px 0px rgb(0 0 0 / 12%);
+}
+.gallery .box .image {
+  position: relative;
+  overflow: hidden;
+}
+.gallery .box .image::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255 255 255 / 30%);
+  width: 0;
+  height: 0;
+  opacity: 0;
+  z-index: 2;
+}
+.gallery .box .image:hover::before {
+  animation: flashing 1s;
+}
+.gallery .box img {
+  max-width: 100%;
+  transition: var(--Main-Trans);
+}
+.gallery .box .image:hover img {
+  transform: rotate(5deg) scale(1.1);
+}
+/* End Gallery */
 /* Start Animations */
 @keyframes left-move {
   50% {
@@ -427,6 +473,17 @@ ul {
 @keyframes moving-arrow {
   100% {
     transform: translateX(10px);
+  }
+}
+@keyframes flashing {
+  0%,
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 200%;
+    height: 200%;
   }
 }
 /* End Animations */
