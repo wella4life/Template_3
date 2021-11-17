@@ -1,12 +1,12 @@
-/* Start Variables */
+/*--------------------------------------------------------  Start Variables */
 :root {
   --Main-Color: #2196f3;
   --Alt-Color: #1787e0;
   --Main-Trans: 0.5s;
   --Section-BG: #ececec;
 }
-/* End Variables */
-/* Start Global Rules */
+/*----------------------------------------------------------  End Variables */
+/*-----------------------------------------------------  Start Global Rules */
 -webkit-box-sizing: border-box;
 * {
   -moz-box-sizing: border-box;
@@ -91,8 +91,8 @@ ul {
   border: 2px solid white;
   transition-delay: 0.4s;
 }
-/* End Global Rules */
-/* Start Header */
+/*--------------------------------------------------------  End Global Rules */
+/*------------------------------------------------------------  Start Header */
 .header {
   background-color: white;
   -webkit-box-shadow: 0 0 10px #ddd;
@@ -236,8 +236,8 @@ ul {
 .header .mega-menu .links li a i {
   margin-right: 10px;
 }
-/* End Header */
-/* Start Landing */
+/* -------------------------------------------------------------- End Header */
+/* ----------------------------------------------------------- Start Landing */
 .landing {
   position: relative;
 }
@@ -318,8 +318,8 @@ ul {
 .landing .go-down i {
   animation: bouncing 1.5s infinite;
 }
-/* End Landing */
-/* Start Articles */
+/*-------------------------------------------------------------  End Landing */
+/*----------------------------------------------------------- Start Articles */
 .articles {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -374,8 +374,8 @@ ul {
   animation: moving-arrow 0.7s ease-in-out infinite;
   animation-direction: alternate;
 }
-/* End Articles */
-/* Start Gallery */
+/*------------------------------------------------------------  End Articles */
+/*-----------------------------------------------------------  Start Gallery */
 .gallery {
   position: relative;
   padding-bottom: 100px;
@@ -419,8 +419,8 @@ ul {
 .gallery .box .image:hover img {
   transform: rotate(5deg) scale(1.1);
 }
-/* End Gallery */
-/* Start Features */
+/*------------------------------------------------------------  End Gallery */
+/* --------------------------------------------------------- Start Features */
 .features {
   position: relative;
   padding-top: 100px;
@@ -539,8 +539,8 @@ ul {
   background-position: left bottom;
   color: white;
 }
-/* End Features */
-/* Start Testimonials */
+/*-----------------------------------------------------------  End Features */
+/*-----------------------------------------------------  Start Testimonials */
 .testimonials {
   position: relative;
   padding-top: 100px;
@@ -586,8 +586,8 @@ ul {
   margin-top: 10px;
   margin-bottom: 0;
 }
-/* End Testimonials */
-/* Start Team */
+/*-------------------------------------------------------  End Testimonials */
+/* ------------------------------------------------------------- Start Team */
 .team {
   position: relative;
   padding-top: 100px;
@@ -677,8 +677,8 @@ ul {
 .team .container .box:hover .info h3 {
   color: #777;
 }
-/* End Team */
-/* Start Services */
+/*----------------------------------------------------------------- End Team */
+/* ---------------------------------------------------------- Start Services */
 .services {
   position: relative;
   padding-top: 100px;
@@ -761,8 +761,8 @@ ul {
 .services .box .info a {
   color: var(--Main-Color);
 }
-/* End Services */
-/* Start Skills */
+/*------------------------------------------------------------  End Services */
+/*------------------------------------------------------------  Start Skills */
 .our-skills {
   position: relative;
   padding-top: 100px;
@@ -811,8 +811,8 @@ ul {
   height: 100%;
   background-color: var(--Main-Color);
 }
-/* End Skills */
-/* Start Work Steps */
+/*--------------------------------------------------------------  End Skills */
+/*--------------------------------------------------------  Start Work Steps */
 .work-steps {
   position: relative;
   padding-top: 100px;
@@ -879,8 +879,8 @@ ul {
   margin: 10px 0 0;
   font-size: 18px;
 }
-/* End Work Steps */
-/* Start Events */
+/*----------------------------------------------------------  End Work Steps */
+/* ------------------------------------------------------------ Start Events */
 .events {
   position: relative;
   padding-top: 100px;
@@ -1009,8 +1009,8 @@ ul {
 .events .subscribe form input[type="submit"]:hover {
   background-color: var(--Alt-Color);
 }
-/* End Events */
-/* Start Pricing */
+/*--------------------------------------------------------------  End Events */
+/*-----------------------------------------------------------  Start Pricing */
 .pricing {
   position: relative;
   padding-top: 100px;
@@ -1131,8 +1131,87 @@ ul {
   color: white;
   transition: var(--Main-Trans);
 }
-/* End Pricing */
-/* Start Animations */
+/*-------------------------------------------------------------  End Pricing */
+/*-------------------------------------------------------------  Start Video */
+.videos {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.videos .container {
+}
+.videos .holder {
+  display: flex;
+  justify-content: center;
+  background-color: var(--Section-BG);
+  border: 1px solid #ddd;
+}
+@media (max-width: 991px) {
+  .videos .holder {
+    flex-direction: column;
+  }
+}
+.videos .holder .list {
+  min-width: 300px;
+  background-color: white;
+}
+.videos .holder .list .name {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f4f4f4;
+  font-weight: bold;
+  color: var(--Main-Color);
+}
+.videos .holder .list ul li {
+  padding: 20px;
+  border-top: 1px solid var(--Section-BG);
+  cursor: pointer;
+  transition: var(--Main-Trans);
+}
+.videos .holder .list ul li:hover {
+  background-color: #fafafa;
+  color: var(--Main-Color);
+}
+.videos .holder .list ul li span {
+  display: block;
+  margin-top: 10px;
+  color: #777;
+}
+.videos .holder .preview {
+  background-color: #e2e2e2;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.videos .holder .preview video {
+  max-width: 100%;
+}
+.videos .holder .preview .info {
+  padding: 20px;
+  background-color: white;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+/*---------------------------------------------------------------  End Video */
+/*-------------------------------------------------------------  Start Stats */
+.stats {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.stats img {
+  z-index: -100;
+  opacity: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/*---------------------------------------------------------------  End Stats */
+/*--------------------------------------------------------  Start Animations */
 @keyframes left-move {
   50% {
     left: 0;
@@ -1198,4 +1277,4 @@ ul {
     height: 200%;
   }
 }
-/* End Animations */
+/*----------------------------------------------------------- End Animations */
