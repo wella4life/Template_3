@@ -21,6 +21,7 @@ html {
 body {
   font-family: "Cairo", sans-serif;
   background-color: var(--Very-Dark-Blue);
+  overflow-x: hidden;
 }
 a {
   text-decoration: none;
@@ -1198,7 +1199,7 @@ ul {
 }
 /*---------------------------------------------------------------  End Video */
 /*-------------------------------------------------------------  Start Stats */
-.stats {
+/* .stats {
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -1209,7 +1210,7 @@ ul {
   position: absolute;
   left: 0;
   top: 0;
-}
+} */
 /*---------------------------------------------------------------  End Stats */
 /*--------------------------------------------------------  Start Animations */
 @keyframes left-move {
