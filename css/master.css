@@ -183,11 +183,13 @@ ul {
   opacity: 0;
   transition: top var(--Main-Trans), opacity var(--Main-Trans);
 }
-@media (max-wdith: 767px) {
+@media (max-width: 767px) {
   .header .mega-menu {
     flex-direction: column;
     gap: 0;
     padding: 5px;
+    width: 90%;
+    justify-content: flex-end;
   }
 }
 .header .mega-menu .image img {
@@ -569,6 +571,11 @@ ul {
   border-radius: 50%;
   border: 10px solid var(--Section-BG);
 }
+@media (max-width: 767px) {
+  .testimonials .box img {
+    right: 0;
+  }
+}
 .testimonials .box h3 {
   margin: 0 0 10px;
   color: var(--Main-Color);
@@ -903,6 +910,11 @@ ul {
 .events .info {
   flex: 1;
 }
+@media (max-width: 766px) {
+  .events .info {
+    max-width: 300px;
+  }
+}
 .events .info .time {
   display: flex;
   align-items: center;
@@ -965,12 +977,13 @@ ul {
 }
 @media (max-width: 767px) {
   .events .subscribe form {
-    max-width: 100%;
+    max-width: 88%;
     padding: 20px;
     flex-direction: column;
     border-radius: 0;
   }
 }
+
 .events .subscribe form input[type="email"] {
   padding: 20px;
   border-radius: 50px;
