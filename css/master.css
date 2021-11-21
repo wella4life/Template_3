@@ -62,6 +62,17 @@ ul {
   z-index: 1;
   transition: var(--Main-Trans);
 }
+.up {
+  margin: 0 auto 80px;
+  padding: 10px 20px;
+  font-size: 30px;
+  width: fit-content;
+  position: relative;
+  z-index: 1;
+  transition: var(--Main-Trans);
+  text-decoration: none;
+  font-weight: bolder;
+}
 .main-title::before,
 .main-title::after {
   content: "";
