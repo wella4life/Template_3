@@ -1,2 +1,34 @@
-# Template_3
- html and css website template 3
+- Overview:
+  - [Best Template Look-Alike I ever worked on](#the-challenge)
+  - [https://wella4life.github.io/Template_3/](#links)
+  - ![](images/Finished-Desktop-1.jpg)
+  - ![](images/Finished-Desktop-2.jpg)
+  - ![](images/Finished-Desktop-3.jpg)
+  - ![](images/Finished-Desktop-4.jpg)
+  - ![](images/Finished-Desktop-5.jpg)
+  - ![](images/Finished-Desktop-6.jpg)
+  - ![](images/Finished-Desktop-7.jpg)
+  - ![](images/Finished-Desktop-8.jpg)
+  - ![](images/Finished-Desktop-9.jpg)
+  - ![](images/Finished-Desktop-10.jpg)
+  - ![](images/Finished-Desktop-11.jpg)
+  - ![](images/Finished-Desktop-12.jpg)
+  - ![](images/Finished-Desktop-13.jpg)
+  - ![](images/Finished-Desktop-14.jpg)
+  - ![](images/Finished-Desktop-15.jpg)
+  - ![](images/Finished-Desktop-16.jpg)
+
+ - Users should be able to:
+   - View the optimal layout for the site depending on their device's screen size
+   - Hover Stats on many components
+   - Animations on many components
+   - Timings and switches on many components
+
+ - What I Learned:
+   - I am almost medium level after finishing this project seeing how massive it was with how fast I finished it
+   - I was creative in many things from the page breaks to the animations to everything
+   - I understood how to center everything or side step everything
+   - I understood the button usages to go to a certain topic or go up to the main page
+ 
+ - What I Couldn't Do:
+   - Proud to say - Absolutely Nothing
