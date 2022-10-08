@@ -1,6 +1,6 @@
 - Overview:
-  - [Best Template Look-Alike I ever worked on](#the-challenge)
-  - [https://wella4life.github.io/Template_3/](#links)
+  - [Best Template Look-Alike I ever worked on]
+  - [https://wella4life.github.io/Template_3/]
   - ![](images/Finished-Desktop-1.jpg)
   - ![](images/Finished-Desktop-2.jpg)
   - ![](images/Finished-Desktop-3.jpg)
